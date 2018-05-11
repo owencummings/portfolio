@@ -1,0 +1,102 @@
+.app{
+  background: #f9f6d6;
+}
+
+.container{
+  background: #fff;
+  color: #aaa;
+  font-size: 1.2em;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 2vw;
+  font-family: 'Lalezar', sans-serif;
+  line-height: 150%
+}
+
+#header{
+  min-height: 70vh;
+  border: double 16px #f9f6d6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.title{
+  font-size: 3em;
+  color: #222;
+  font-family: 'Shrikhand', cursive;
+  line-height: 150%;
+  text-shadow: 0px 4px #aaa;
+}
+
+
+.subtitle{
+  font-size: 1em;
+  color: #888
+}
+
+
+.projectContainer{
+  width: 90%;
+  border: solid 3px #111;
+  border-radius: 3px;
+
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.flexElement{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.projectTitle{
+  font-family: 'Shrikhand';
+  background-color: #fedc3d;
+  color: #0d0d0d;
+  font-size: 1.1em;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectDescription{
+  background-color: #ffe675;
+  color: #222;
+  font-weight: 600;
+  font-family: 'Gothic A1';
+  text-align: left;
+  width: 70%;
+}
+
+.projectUsed{
+  width: 100%;
+  padding: 30px;
+}
+
+i{
+  padding-top: 10px;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+a:link{
+  color: #060606;
+}
+
+a:visited{
+    color:#a3170e
+
+}
+
+.iconContainer{
+
+}
