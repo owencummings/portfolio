@@ -42,7 +42,7 @@ const data = [
     title: 'Album Ranker',
     subtitle: '...',
     description: 'A little full-stack work. A website to write album reviews, but with the appropriate server code to store data and act as an API.',
-    usedTechnologies: ['Angular', 'Node.js'],
+    usedTechnologies: ['Angular', 'Node.js', 'MongoDB'],
     hasLive: false,
     githubUrl: 'https://github.com/owencummings/mean-stack-fun',
     liveUrl: ''
@@ -59,7 +59,7 @@ const data = [
   {
     title: 'An Old Site',
     subtitle: '...',
-    description: 'One of my first real attempts at making a web app. Awkward and non-responsive, but there are some good ideas here.',
+    description: 'One of my first real attempts at making a web app. Awkward and non-responsive, but there is some good plain JavaScript here.',
     usedTechnologies:['HTML', 'CSS', 'JavaScript', 'jQuery'],
     hasLive: true,
     githubUrl: 'https://github.com/owencummings/owencummings.github.io',
