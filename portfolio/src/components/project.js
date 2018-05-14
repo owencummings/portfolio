@@ -16,7 +16,9 @@ class Project extends Component{
     return(
       <div className='projectContainer'>
         <div className='flexElement projectTitle'>
+          <div className='projectTitleText'>
           {project.title}
+          </div>
           <div className="iconContainer">
             {project.hasLive &&
               <a href={project.liveUrl} target='_blank' >

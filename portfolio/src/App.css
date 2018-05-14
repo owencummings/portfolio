@@ -7,6 +7,7 @@
   color: #aaa;
   font-size: 1.2em;
   text-align: center;
+  width: 100%;
   max-width: 800px;
   margin: auto;
   padding: 2vw;
@@ -68,6 +69,10 @@
   justify-content: center;
 }
 
+.projectTitleText{
+  padding: 10px;
+}
+
 .projectDescription{
   background-color: #ffe675;
   color: #222;
@@ -83,9 +88,10 @@
 }
 
 i{
-  padding-top: 10px;
+  padding: 10px;
   min-height: 40px;
   min-width: 40px;
+  font-size: 1.4em;
 }
 
 a:link{
@@ -97,6 +103,27 @@ a:visited{
 
 }
 
-.iconContainer{
+@media screen and (max-width: 600px){
+  .projectTitle{
+    width: 100%;
+  }
 
+  .projectDescription{
+    width: 100%;
+  }
+
+  .projectContainer{
+    width: 100%;
+    border: none;
+    margin: 0px;
+    border-bottom: double 5px #111;
+  }
+
+  .container{
+    padding: 0px;
+  }
+
+  .title{
+    font-size: 2em;
+  }
 }
